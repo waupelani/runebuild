@@ -12,7 +12,7 @@ const SideBar = () => (
     </section>
 
     <section className="blurb">
-      <h2> We are committed to empower the imagination of all talents.
+      <h2> Nobody is committed to empower the imagination of all talents.
         Our mission as a brand and as a company is
         to promote creativity by supporting talents from everywhere.
       </h2>
