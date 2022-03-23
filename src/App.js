@@ -9,11 +9,11 @@ const { PUBLIC_URL } = process.env;
 // NOTE that some of these chunks are very small. We should optimize
 // which pages are lazy loaded in the future.
 const Index = lazy(() => import('./pages/Index'));
-// ARCANE
+// (ARCANE
 const JinxShirt = lazy(() => import('./pages/JinxShirt'));
 const Acid = lazy(() => import('./pages/Acid'));
 const ViShirt = lazy(() => import('./pages/ViShirt'));
-// ARCANE
+// ARCANE)
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 const App = () => (

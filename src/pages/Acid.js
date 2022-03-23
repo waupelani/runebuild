@@ -11,7 +11,7 @@ const Index = () => (
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2 data-testid="Acid"><Link to="/">"ACID" ICYTWAT Type Beat </Link></h2>
+          <h2 data-testid="Acid"><Link to="/">"ACID" CARTI X ICYTWAT Type Beat </Link></h2>
           <p>
             ◼ BLCK/WHTE ◼
           </p>
