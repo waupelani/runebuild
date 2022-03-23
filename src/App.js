@@ -11,6 +11,7 @@ const { PUBLIC_URL } = process.env;
 const Index = lazy(() => import('./pages/Index'));
 // ARCANE
 const JinxShirt = lazy(() => import('./pages/JinxShirt'));
+const Acid = lazy(() => import('./pages/Acid'));
 const ViShirt = lazy(() => import('./pages/ViShirt'));
 // ARCANE
 const NotFound = lazy(() => import('./pages/NotFound'));
@@ -22,6 +23,7 @@ const App = () => (
         <Route exact path="/" component={Index} />
         <Route exact path="/arcane-jinx-shirt" component={JinxShirt} />
         <Route exact path="/arcane-vi-shirt" component={ViShirt} />
+        <Route exact path="/acid" component={Acid} />
         <Route component={NotFound} status={404} />
       </Switch>
     </Suspense>

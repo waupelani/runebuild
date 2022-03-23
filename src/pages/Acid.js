@@ -4,18 +4,16 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 import Cell from '../components/Projects/Cell';
-import data from '../data/arcane-jinx-shirt-data';
+import data from '../data/Acid-data';
 
 const Index = () => (
   <Main>
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2 data-testid="arcane-jinx-shirt"><Link to="/"> $1 Beats </Link></h2>
+          <h2 data-testid="Acid"><Link to="/">Arcane Jinx Shirts </Link></h2>
           <p>
-            ◼ Free For Profit ◼
-            ◼ Free For Streaming ◼
-            ◼ Don't Have to Credit ◼
+            ◼ BLCK/WHTE ◼
           </p>
           {data.map((project) => (
             <Cell

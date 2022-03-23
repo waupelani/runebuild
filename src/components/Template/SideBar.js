@@ -12,16 +12,14 @@ const SideBar = () => (
     </section>
 
     <section className="blurb">
-      <h2> IT IS WORKING!!1 Nobody is committed to empower the imagination of all talents.
-        Our mission as a brand and as a company is
-        to promote creativity by supporting talents from everywhere.
+      <h2> Committed to Empower Every Talent.
       </h2>
       <p>,
       </p>
     </section>
 
     <section id="footer">
-      <p className="copyright">&copy; RuneBuild 2021 <Link to="/">runebuild.com</Link>.</p>
+      <p className="copyright">&copy; RuneBuild 2022 <Link to="/">runebuild.com</Link>.</p>
     </section>
   </section>
 );
