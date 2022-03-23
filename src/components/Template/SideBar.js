@@ -12,7 +12,7 @@ const SideBar = () => (
     </section>
 
     <section className="blurb">
-      <h2> Committed to Empower Every Talent.
+      <h2> Committed to Empower Every Talent!
       </h2>
       <p>,
       </p>

@@ -11,7 +11,7 @@ const Index = () => (
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2 data-testid="Acid"><Link to="/">Arcane Jinx Shirts </Link></h2>
+          <h2 data-testid="Acid"><Link to="/">"ACID" ICYTWAT Type Beat </Link></h2>
           <p>
             ◼ BLCK/WHTE ◼
           </p>
@@ -22,7 +22,7 @@ const Index = () => (
             />
           ))}
           <p>
-            High quality Arcane Jinx Shirts Black and White Available Now.
+            For $1, You will receive untagged wav file
           </p>
         </div>
       </header>
